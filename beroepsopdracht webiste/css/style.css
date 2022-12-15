@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: left;
+    background-color: rgb(3, 0, 43);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.wat-er-is-te-doen{
+    border-right: 3px solid white;
+    padding-right: 20px;
+    margin-right: 130x;
+}
+
+.flex-container{
+    display: flex;
+    margin-top: 20px;
+    flex-direction:row;
+    justify-content: center;
+    padding-bottom: 20px;  
+}
+
+.flex-container2{
+    display: flex;
+    margin-top: 20px;
+    flex-direction:row;
+    justify-content: center;
+    padding-bottom: 20px;  
+}
+
+header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    padding-top: 0px;
+    font-size: 20px;
+}
+
+article{    
+    width: 70vw;
+    background-color: rgb(0, 64, 116);
+    padding: 0px 40px 40px 40px;
+    
+}
+
+.geschiedenis{
+    margin-left: 250px;
+    margin-top: 0px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.img-geschiedenis{
+    margin-top: 0px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.tweedefoto{
+    width: 240px;
+    border-radius: 20px;
+    height: 300px;
+    padding: 10px;
+}
+
+.geschiedenis-text{
+    margin-left: 50px;
+}
